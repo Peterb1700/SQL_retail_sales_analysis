@@ -209,6 +209,26 @@ WHERE
     GROUP BY shift;
     ```
 
-## Conclusion
+### Key Findings
+- **Customer Behavior**: 
+  - The average age of customers purchasing items in the 'Beauty' category is **40.42 years**.
+  - The **top 5 customers** accounted for a significant portion of total sales, led by Customer ID 3 with **$38,440**.
 
+- **Sales Trends**: 
+  - **Electronics** generated the highest total sales (**$311,445**) but had slightly fewer total orders compared to Clothing.
+  - Peak sales shifts occur in the **Afternoon**, accounting for **1062 orders**, followed by the Morning with **548 orders**.
+
+- **High-Value Transactions**: 
+  - A total of **306 transactions** had a sale value exceeding **$1,000**, indicating strong premium sales performance.
+
+- **Unique Customers**: 
+  - Unique customer counts were fairly distributed across categories, with **Clothing (149)** leading, followed by **Electronics (144)** and **Beauty (141)**.
+
+### Conclusion
+This project demonstrated SQL techniques for analyzing retail sales data and deriving actionable insights. The analysis highlighted:
+- The importance of customer segmentation by spending habits and demographics.
+- Key time periods and product categories for optimizing sales strategies.
+- Opportunities to focus on high-value transactions and top-spending customers for targeted marketing.
+
+The findings provide a solid foundation for data-driven decision-making in retail and can guide future strategies to improve customer retention and maximize profitability.
 This project served as a comprehensive introduction to SQL, covering database setup, data cleaning, exploratory data analysis, and advanced queries to derive actionable business insights. Key findings include detailed analysis of customer behavior, sales trends, and category performance. These insights can help drive business decisions to improve sales and customer engagement.
